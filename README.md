@@ -5,7 +5,7 @@ git https://github.com/rezarffahlevi/indo-formatter
 
 Tersedia:
 - Format Rupiah
-- Format Angka Terbilang
+- Format Angka Terbilang (belum support menggunakan koma)
 - Format Tanggal
 - Kapital Awal
 
