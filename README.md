@@ -10,9 +10,9 @@ Tersedia:
 
 ```jsx
 
-const idf = require('../index');
+const idf = require('indo-formatter');
 
-const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
+const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('indo-formatte');
 
 //ES6
 
@@ -23,17 +23,22 @@ import idf, { toTerbilang, toUcFirst, toRupiah, toTanggal } from 'indo-formatter
 
 ```jsx
 
-const idf = require('../index');
+const idf = require('indo-formatte');
 
-const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
+const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('indo-formatter');
 
 //ES6
 
 import idf, { toTerbilang, toUcFirst, toRupiah, toTanggal } from 'indo-formatter';
 
-
+// sekali import menggunakan idf
 
 idf.toUcFirst(idf.toTerbilang(10000)); //Sepuluh ribu
+idf.toTanggal() //Selasa, 18 februari 2020 (Hari ini)
+
+// menggunakan import function
+
+toTerbilang(2513) //Dua ribu lima ratus tiga belas
 
 toUcFirst(toTerbilang(2513)) //Dua ribu lima ratus tiga belas
 
