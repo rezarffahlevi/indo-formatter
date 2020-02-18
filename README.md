@@ -1,6 +1,7 @@
 # indo-formatter
 
 npm https://www.npmjs.com/package/indo-formatter
+
 git https://github.com/rezarffahlevi/indo-formatter
 
 Tersedia:
