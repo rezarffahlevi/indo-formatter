@@ -2,7 +2,7 @@
 
 Tersedia:
 - Format Rupiah
-- Format angka terbilang
+- Format Angka Terbilang
 - Format Tanggal
 - Kapital Awal
 
