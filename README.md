@@ -13,6 +13,7 @@ const idf = require('../index');
 const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
 
 //ES6
+
 import idf, { toTerbilang, toUcFirst, toRupiah, toTanggal } from 'indo-formatter';
 
 idf.toUcFirst(idf.toTerbilang(10000)); //Sepuluh ribu
