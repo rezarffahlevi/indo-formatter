@@ -6,9 +6,23 @@ Tersedia:
 - Format Tanggal
 - Kapital Awal
 
+# Import
+
+```jsx
+
+const idf = require('../index');
+
+const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
+
+//ES6
+
+import idf, { toTerbilang, toUcFirst, toRupiah, toTanggal } from 'indo-formatter';
+```
+
 # Cara pemakaian
 
 ```jsx
+
 const idf = require('../index');
 
 const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
@@ -31,7 +45,6 @@ toTanggal('2020-02-17') //Senin, 17 februari 2020
 
 toTanggal('10/21/2012', 'l') //21 okt 2012
 ```
-:
 
 
 
