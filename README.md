@@ -31,6 +31,8 @@ const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
 
 import idf, { toTerbilang, toUcFirst, toRupiah, toTanggal } from 'indo-formatter';
 
+
+
 idf.toUcFirst(idf.toTerbilang(10000)); //Sepuluh ribu
 
 toUcFirst(toTerbilang(2513)) //Dua ribu lima ratus tiga belas
