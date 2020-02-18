@@ -23,7 +23,7 @@ import idf, { toTerbilang, toUcFirst, toRupiah, toTanggal } from 'indo-formatter
 
 ```jsx
 
-const idf = require('indo-formatte');
+const idf = require('indo-formatter');
 
 const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('indo-formatter');
 
