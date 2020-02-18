@@ -1,5 +1,7 @@
 # indo-formatter
 
+npm https://www.npmjs.com/package/indo-formatter
+
 Tersedia:
 - Format Rupiah
 - Format Angka Terbilang
