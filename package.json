@@ -1,7 +1,7 @@
 {
   "name": "indo-formatter",
-  "version": "1.0.0",
-  "description": "Library buat format Indonesia",
+  "version": "1.0.2",
+  "description": "Library for Indonesia format",
   "main": "index.js",
   "scripts": {
     "test": "node test"
