@@ -6,8 +6,9 @@ Tersedia:
 - Format Tanggal
 - Kapital Awal
 
-Cara pemakaian:
+# Cara pemakaian
 
+```jsx
 const idf = require('../index');
 
 const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('../index');
@@ -29,5 +30,9 @@ toTanggal() //Selasa, 18 februari 2020 (Hari ini)
 toTanggal('2020-02-17') //Senin, 17 februari 2020
 
 toTanggal('10/21/2012', 'l') //21 okt 2012
+```
+:
+
+
 
 Semoga bermanfaat
