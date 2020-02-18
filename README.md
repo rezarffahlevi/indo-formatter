@@ -38,7 +38,7 @@ idf.toTanggal() //Selasa, 18 februari 2020 (Hari ini)
 
 // menggunakan import function
 
-toTerbilang(2513) //Dua ribu lima ratus tiga belas
+toTerbilang(2513) //dua ribu lima ratus tiga belas
 
 toUcFirst(toTerbilang(2513)) //Dua ribu lima ratus tiga belas
 
