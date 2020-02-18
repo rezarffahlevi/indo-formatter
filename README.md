@@ -12,7 +12,7 @@ Tersedia:
 
 const idf = require('indo-formatter');
 
-const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('indo-formatte');
+const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('indo-formatter');
 
 //ES6
 
