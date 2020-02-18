@@ -16,6 +16,8 @@ Avaible:
 
 const idf = require('indo-formatter');
 
+//Or
+
 const {toTerbilang, toUcFirst, toRupiah, toTanggal} = require('indo-formatter');
 
 //ES6
