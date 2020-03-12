@@ -45,11 +45,12 @@ toRupiah(10000) //Rp. 10.000,00
 
 toRupiah(10000, false) // Rp. 10.000
 
-toTanggal() // Selasa, 18 februari 2020 (Hari ini)
+toTanggal() // Selasa, 18 februari 2020 (today)
 
 toTanggal('2020-02-17') // Senin, 17 februari 2020
 
 toTanggal('10/21/2012', 'l') // 21 okt 2012
+
 
 // Assumption is now on March 12, 2020 at 10:30
 
