@@ -11,6 +11,8 @@ Available:
 - Initial capital
 - Relative time
 
+Version 1.0.3
+
 # Import
 
 ```jsx
