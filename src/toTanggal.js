@@ -31,6 +31,22 @@ const toTanggal = (tanggal, format = 'L') => {
     }
     else if(typeof tanggal == 'string' && tanggal.length > 8)
     {
+        let tanggalTemp = []
+        if (tanggal.indexOf('/') !== -1) {
+            tanggalTemp = tanggal.split('/')
+        } else if (tanggal.indexOf('-') !== -1) {
+            tanggalTemp = tanggal.split('-')
+        }
+        if (
+            (parseInt(tanggalTemp[0]) > 12) &&
+            (tanggalTemp[0].length === 2)
+        ) {
+            let temp = tanggalTemp[0]
+            tanggalTemp[0] = tanggalTemp[1]
+            tanggalTemp[1] = temp
+            tanggal = tanggalTemp.join('/')
+        }
+
         let date = new Date(tanggal);
         result = convertTgl(date, format);
     }
